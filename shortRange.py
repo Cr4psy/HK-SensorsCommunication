@@ -51,12 +51,12 @@ while True:
         # Each value will be a 12 or 16 bit signed integer value depending on the
         # ADC (ADS1015 = 12-bit, ADS1115 = 16-bit).
     # Print the ADC values.
-    if (values[0] > 2.7):
-                values[0] = 10
-    elif (values[0] < 0.4):
-                values[0] = 999
-    else:
-                values[0] = 57.6/(values[0]-0.08)
+    #if (values[0] > 2.7):
+                #values[0] = 10
+    #elif (values[0] < 0.4):
+                #values[0] = 999
+    #else:
+                #values[0] = 57.6/(values[0]-0.08)
 		#values[0] = 0.0002*math.pow(values[0],3)-0.0366*math.pow(values[0],2)+2.4507*values[0]-19.674
     print('| {0:>6} | {1:>6} | {2:>6} | {3:>6} |'.format(*values))
     # Pause for half a second.

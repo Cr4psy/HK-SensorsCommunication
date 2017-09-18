@@ -1,11 +1,11 @@
-On 7/13/15 John Bohlhuis contribute his own Python code that he is using to automate the reading of distance values. 
-We gladly share this for your use in your projects. 
-Thank you John for sharing. 
+#On 7/13/15 John Bohlhuis contribute his own Python code that he is using to automate the reading of distance values. 
+#We gladly share this for your use in your projects. 
+#Thank you John for sharing. 
 
 
-***************************************************************************
-First, the Python module that does the actual work:
-***************************************************************************
+#***************************************************************************
+#First, the Python module that does the actual work:
+#***************************************************************************
 
 #!/usr/bin/python3
 # Filename: maxSonarTTY.py
@@ -59,9 +59,9 @@ if __name__ == '__main__':
 
 
 
-***************************************************************************
-Also, here is a sample Python script that shows how the module may be used:
-***************************************************************************
+#***************************************************************************
+#Also, here is a sample Python script that shows how the module may be used:
+#***************************************************************************
 
 
 #!/usr/bin/python3
