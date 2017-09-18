@@ -16,7 +16,7 @@ maxRange = 5000  # change for 5m vs 10m sensor
 sleepTime = 5
 minMM = 9999
 maxMM = 0
-
+print("Trying to communicate")
 while True:
     mm = maxSonarTTY.measure(serialPort)
     if mm >= maxRange:
